@@ -26,8 +26,8 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 @font-face {
-    font-family: Tahoma; /* Имя шрифта */
-    src: url(../fonts/Tahoma-Regular.ttf); /* Путь к файлу со шрифтом */
+    font-family: Tahoma; /* Г€Г¬Гї ГёГ°ГЁГґГІГ  */
+    src: url(../fonts/Tahoma-Regular.ttf); /* ГЏГіГІГј ГЄ ГґГ Г©Г«Гі Г±Г® ГёГ°ГЁГґГІГ®Г¬ */
 }
 body {
     line-height: 1;
@@ -156,7 +156,6 @@ p{
     margin-left: 5px;
 }
 .top-menu ul ul{
-    opacity: 0;
     position: absolute;
     top: 30px;
     left:20px;
