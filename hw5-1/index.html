@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Домашнее задание №5-1</title>
+</head>
+<body>
+<div class="container">
+    <nav>
+        <ul class="add-menu">
+            <li><a class="flag" href="#">Minhas Ofertas</a></li>
+            <li><a class="bg-last" href="#">Ola! <i>Entrar</i> ou <i>Cadastre-se</i></a></li>
+        </ul>
+        <ul class="main">
+            <li><a href="#">Meu YouBike</a></li>
+            <li><a href="#">Vender</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Ajuda</a></li>
+        </ul>
+
+        <div class="clear"></div>
+
+    </nav>
+
+
+    <div class="form-block">
+        <h3>Cadastre-se</h3>
+        <div class="form-wrapp">
+            <form action="handler.php">
+                <button><b>Log In </b>with<b> Facebook</b></button>
+                <div class="fb-img"><img src="images/f.png" alt=""/></div>
+                <div class="fb-arrow"><img src="images/arrow.png" alt=""/></div>
+                <div id="line-block">
+                    <hr/>
+                    <span class="ou">OU</span>
+                    <hr/>
+                    <div class="clear"></div>
+                </div>
+                <div class="input-fields">
+                    <input type="text" id="name" name="name" placeholder="First Name"/>
+                    <input type="text" id="lastname" placeholder="Last Name"/>
+                    <input type="email" id="email" placeholder="Email Adress"/>
+                    <input type="password" id="pass" placeholder="Choose Password"/>
+                    <input type="password" id="confpass" placeholder="Password Confirm"/>
+                    <input type="checkbox" id="ok"/><label for="ok">Send me Youbike updates and tips</label>
+                    <div>
+                        <input type="submit" value="Create My Account"/>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+            <p>By clicking the button above, you agree to the Terms of Service <br/>
+               Xiew our Privacy Policy.</p>
+
+    </div>
+</div>
+</body>
+</html>
