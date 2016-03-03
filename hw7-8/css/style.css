@@ -1,0 +1,481 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a,abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline:0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+@font-face {
+    font-family: LeagueGothic;
+    src: url(../fonts/LeagueGothicRegular.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/2211.ttf);
+}
+@font-face {
+    font-family: Georgia;
+    src: url(../fonts/georgia.ttf);
+}
+body {
+    line-height: 1;
+    font-family: helvetica;
+    background: #c0c0c0;
+}
+a{
+    text-decoration: underline;
+}
+ol, ul, menu {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input,textarea{
+    outline:none;
+}
+
+textarea{
+    resize:vertical;
+}
+
+p{
+      color:#2c2c2c;
+      font-size: 14px;
+}
+.clear{
+    clear: both;
+}
+.wrapp{
+    margin: 0 auto;
+    max-width: 960px;
+}
+header{
+    background: url(../images/header-bg.png) no-repeat center;
+    /*height: 846px;*/
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-bottom: 1px solid #33253a;
+}
+.header__top{
+    padding: 67px 0 163px 0;
+}
+.header__logo{
+    display: block;
+    float: left;
+    width: 17%;
+    margin-right: 10%;
+    text-decoration: none;
+}
+.header__logo p{
+    font-family: LeagueGothic,sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000;
+}
+.header__logo p span{
+    color: #553c61;
+    text-shadow: none;
+}
+nav{
+    float: left;
+    width: 73%;
+    margin-top: 8px;
+}
+.menu{
+}
+.menu__item{
+    display: inline-block;
+}
+.menu-item-top{
+    display: none;
+    cursor: pointer;
+    /*border-bottom: 2px solid #edbfff;*/
+}
+.circle{
+    position: absolute;
+    bottom: -524px;
+    left: 200px;
+    opacity:0.3;
+}
+.circle ul li{
+    display: inline-block;
+}
+.circle-news{
+    position: absolute;
+    top: 312px;
+    left: 169px;
+}
+.circle-news ul li{
+    display: inline-block;
+}
+.menu__link, .menu-item-top{
+    font-family: LeagueGothic,sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 0 0 40px;
+}
+.menu__link span{
+    padding: 0 5px;
+}
+.menu__link span:hover{
+    border-bottom: 2px solid #edbfff;
+}
+
+.slider__arrows{
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+.slider__arrows:before,
+.slider__arrows:after{
+    position: absolute;
+    top:184px;
+    cursor: pointer;
+}
+.slider__arrows:before{
+    content: url(../images/arrowL.png);
+    left:0;
+}
+.slider__arrows:after{
+    content: url(../images/arrowR.png);
+    right:0;
+}
+.header__slider{
+    background: rgba(0,0,0,0.2);
+    height: 400px;
+    margin-bottom: 200px;
+}
+.slider__left,
+.slider__right{
+    float: left;
+    font-family: LeagueGothic,sans-serif;
+}
+
+.slider__right{
+    width: 43%;
+    position: relative;
+    text-align: center;
+}
+.slider__left{
+    width: 57%;
+}
+.slider__left_wrapp{
+    padding: 80px 0 0 0;
+}
+.slider__left h1{
+    font-size: 60px;
+    color: #fefefe;
+}
+.slider__left h3{
+    color: #edbfff;
+    font-size:32px;
+}
+.slider__left p{
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: OpenSans, sans-serif;
+    font-weight: lighter;
+}
+.iphone{
+    position: absolute;
+    top: -14px;
+    left: 152px;
+    z-index: 2;
+}
+.shadow-iphone{
+    position: absolute;
+    top: 72px;
+    left: 81px;
+    z-index: 1;
+}
+.play{
+    position: absolute;
+    top: 134px;
+    left: 208px;
+    z-index: 3;
+}
+aside.about{
+    overflow: hidden;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#745083+0,322539+100 */
+    background: #745083; /* Old browsers */
+    background: -moz-linear-gradient(top,  #745083 0%, #322539 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #745083 0%,#322539 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #745083 0%,#322539 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#322539',GradientType=0 ); /* IE6-9 */
+    -webkit-box-shadow: 0 4px 12px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 4px 12px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,0.75);
+}
+
+.about__block{
+    float: left;
+    margin:76px 17px 70px 16px;
+    width: 31%;
+    font-family: LeagueGothic,sans-serif;
+}
+#last{
+    margin-right:0;
+    margin-left: 0;
+}
+aside .about__block i{
+    background: url(../images/sprite.png) no-repeat;
+    /*background: url(../images/sprite.svg) no-repeat;*/
+    margin-top: 10px;
+    display: block;
+    width:26px;
+    height:25px;
+    float: left;
+}
+aside .about__block i.key{
+    background-position: 0 0;
+}
+aside .about__block i.tunes{
+    background-position: -54px 0;
+}
+aside .about__block i.com{
+    background-position: -26px 0;
+}
+.article-wrapp{
+    float: left;
+    width: 84%;
+    margin-left: 20px;
+}
+.about__block h1{
+     font-size: 30px;
+     color: #ffffff;
+ }
+.about__block p{
+    font-family: OpenSans, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-top: 8px;
+
+}
+.readmore{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    text-align: right;
+    margin-top: 24px;
+    margin-right: 8px;
+}
+.here{
+    font-family: 'LeagueGothic', sans-serif;
+    color: #454545;
+    margin-top: 19px;
+    margin-right: 0;
+}
+.readmore:hover{
+    text-shadow: 0 0 15px rgba(150, 150, 150, 1);
+}
+aside.news{
+    background: #f9f9f9;
+    border-bottom: 1px solid #e6e6e6;
+}
+.news__block{
+    padding: 100px 25px 57px 0;
+}
+.news__slider,
+.news__all{
+    float: left;
+}
+.news__all{
+    width: 51%;
+}
+.news__slider{
+    width: 46%;
+    color: #454545;
+    background: #ffffff;
+    border:1px solid #f6f6f6;
+    position: relative;
+    margin-right: 2%;
+}
+
+.news__slider:after{
+    content: url(../images/triangle.png);
+    position: absolute;
+    bottom: -21px;
+    right: 45px;
+    z-index: 2;
+}
+.man-face{
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+.news__wrapp{
+    padding:32px 10px 34px 42px;
+}
+.news__title{
+    font-family: 'LeagueGothic', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.news__title span{
+    color: #edbfff;
+}
+.news__text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 6px;
+}
+.news__all__block{
+    color: #454545;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.news__all__title{
+    font-weight: bold;
+    margin: 5px 0;
+}
+.news__all__title a{
+    text-decoration: none;
+    color: #454545;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.news__all__img{
+    float: left;
+    width: 12%;
+}
+.news__all__cont{
+    float: left;
+    margin-left: 3%;
+    width: 85%;
+}
+.news__all__text{
+    font-weight: lighter;
+}
+
+/*partners*/
+.partners{
+    background: #f9f9f9;
+    border-bottom: 1px solid #e6e6e6;
+}
+.partners-block{
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+.partners__logo{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px 33px;
+}
+/*bottom__news*/
+.bottom__news{
+    background: #ececec;
+}
+.bottom__block{
+    padding: 96px 0;
+}
+.bottom__block__item{
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    color: #454545;
+}
+.last{
+    margin: 0;
+}
+.item__head{
+    font-size: 48px;
+    font-family: 'LeagueGothic', sans-serif;
+    text-transform: uppercase;
+}
+.item__head span{
+    color: #b9b9b9;
+}
+.item__copy{
+    color: #c5c5c5;
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Georgia', arial;
+    margin-top: 13px;
+}
+.item__text{
+    margin-top: 10px;
+    font-family: OpenSans, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+    color: #787878;
+}
+/*footer*/
+footer{
+    background: url(../images/footer-bg.png) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.bottom-menu{
+    margin-top: 40px;
+    float: left;
+}
+.menu__link-bottom{
+    padding: 0 29px 0 0;
+    font-size: 20px;
+}
+.bottom-nav{
+    margin-bottom: 40px;
+}
+.develop{
+    float: right;
+    margin-top: 54px;
+}
+.develop p{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.develop p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+.develop p a:hover{
+    text-decoration: underline;
+}
