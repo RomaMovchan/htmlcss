@@ -26,8 +26,8 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 @font-face {
-    font-family: Lucida;
-    src: url(../fonts/Lucida.ttf);
+    font-family: 'Lucida';
+    src: url('../fonts/Lucida.ttf');
 }
 body {
     line-height: 1;
@@ -51,18 +51,11 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
 input,textarea{
     outline:none;
 }
-
 textarea{
     resize:vertical;
-}
-
-p{
-    /* color:#2c2c2c;
-     font-size: 14px;*/
 }
 .clear{
     clear: both;
@@ -71,7 +64,6 @@ p{
     margin: 0 auto;
     width:908px;
     height: 1028px;
-
 }
 /*header*/
 .header-top-wrapp{
@@ -122,7 +114,7 @@ p{
 .panel-form a{
     font-size: 12px;
     letter-spacing: 1px;
-    font-family: Lucida;
+    font-family: 'Lucida';
     color: #fff;
     text-decoration: none;
 }
@@ -183,7 +175,7 @@ header .menu{
     vertical-align: middle;
 }
 .menu nav ul.top-menu li a{
-    font-family: Lucida;
+    font-family: 'Lucida';
     font-size: 13.64px;
     padding: 5px 15px;
     color: #b1bcc0;
@@ -243,13 +235,11 @@ header .menu{
 .filter-form-wrapp-disc{
     padding: 3px 6px 7px 10px;
 }
-
 form.search-car,
 form.search-tires,
 form.search-disc {
     font-size: 10px;
 }
-
 form.search-tires h3,
 form.search-disc h3 {
     font-size: 12px;
@@ -289,10 +279,6 @@ form.search-disc h3 {
 .mr{
     margin-right: 20px;
 }
-.search-car-left h4{
-
-}
-
 .search-car-left h4.tal{
     text-align: left;
 }
@@ -360,7 +346,6 @@ form.search-disc input[type="submit"] {
     cursor: pointer;
     float: right;
     padding: 0;
-    /*text-decoration: underline;*/
     border-bottom: 1px solid #154467;
     color: #154467;
     font-size: 14px;
@@ -409,7 +394,6 @@ form.search-tires input[type="checkbox"]{
 .filter-form-block:nth-child(3){
     margin: 0;
 }
-
 /*content*/
 /*aside*/
 .content{
@@ -418,7 +402,7 @@ form.search-tires input[type="checkbox"]{
 aside{
     float: left;
     width: 180px;
-    font-family: Lucida;
+    font-family: 'Lucida';
 }
 aside .aside-title,
 aside .section-title{
@@ -448,7 +432,7 @@ aside .section-title span {
     padding: 7px 3px 7px 27px;
 }
 ul.catalog{
-    margin: 0px 0 2px 53px;
+    margin: 0 0 2px 53px;
 }
 ul.catalog li{
     padding: 4px 0 4px 0;
@@ -477,13 +461,10 @@ section form div label{
     padding-left: 5px;
     cursor: pointer;
 }
-.right-side form.brands{
-
-}
 .right-side form.brands div{
     margin: 5px 0;
 }
-input[type="submit"]{
+input[type="submit"].choose{
     color: #ffffff;
     border-radius: 11px;
     border:none;
@@ -507,18 +488,6 @@ main{
     background: -webkit-linear-gradient(top,  #e5e7e8 0%,#93a7b0 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #e5e7e8 0%,#93a7b0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e7e8', endColorstr='#93a7b0',GradientType=0 ); /* IE6-9 */
-    /*position: relative;
-    z-index: 10;*/
-}
-main .transparency{
-
-    /*opacity:0.5;
-
-    -moz-opacity:0.5;
-    position:absolute;
-    top:0px;
-    left:0px;
-    z-index:-1;*/
 }
 .main-wrapp{
     padding: 15px 30px 0 23px;
@@ -528,7 +497,7 @@ figure{
     width: 141px;
     margin: 0 25px 25px 0;
     text-align: center;
-    font-family: Lucida;
+    font-family: 'Lucida';
 }
 figure:nth-child(3n+3){
     margin-right: 0;
