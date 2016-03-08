@@ -60,15 +60,12 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
 input,textarea{
     outline:none;
 }
-
 textarea{
     resize:vertical;
 }
-
 p{
       color:#2c2c2c;
       font-size: 14px;
@@ -82,7 +79,6 @@ p{
 }
 header{
     background: url(../images/header-bg.png) no-repeat center;
-    /*height: 846px;*/
     -webkit-background-size: cover;
     background-size: cover;
     border-bottom: 1px solid #33253a;
@@ -113,15 +109,12 @@ nav{
     width: 73%;
     margin-top: 8px;
 }
-.menu{
-}
 .menu__item{
     display: inline-block;
 }
 .menu-item-top{
     display: none;
     cursor: pointer;
-    /*border-bottom: 2px solid #edbfff;*/
 }
 .circle{
     position: absolute;
@@ -155,7 +148,6 @@ nav{
 .menu__link span:hover{
     border-bottom: 2px solid #edbfff;
 }
-
 .slider__arrows{
     max-width: 1600px;
     margin: 0 auto;
@@ -185,7 +177,6 @@ nav{
     float: left;
     font-family: LeagueGothic,sans-serif;
 }
-
 .slider__right{
     width: 43%;
     position: relative;
@@ -243,7 +234,6 @@ aside.about{
     -moz-box-shadow: 0 4px 12px 0 rgba(0,0,0,0.75);
     box-shadow: 0 4px 12px 0 rgba(0,0,0,0.75);
 }
-
 .about__block{
     float: left;
     margin:76px 17px 70px 16px;
@@ -256,7 +246,6 @@ aside.about{
 }
 aside .about__block i{
     background: url(../images/sprite.png) no-repeat;
-    /*background: url(../images/sprite.svg) no-repeat;*/
     margin-top: 10px;
     display: block;
     width:26px;
@@ -288,7 +277,6 @@ aside .about__block i.com{
     color: #ffffff;
     font-weight: lighter;
     margin-top: 8px;
-
 }
 .readmore{
     font-size: 18px;
@@ -331,7 +319,6 @@ aside.news{
     position: relative;
     margin-right: 2%;
 }
-
 .news__slider:after{
     content: url(../images/triangle.png);
     position: absolute;
@@ -389,7 +376,6 @@ aside.news{
 .news__all__text{
     font-weight: lighter;
 }
-
 /*partners*/
 .partners{
     background: #f9f9f9;
@@ -433,7 +419,7 @@ aside.news{
     color: #c5c5c5;
     font-size: 16px;
     font-style: italic;
-    font-family: 'Georgia', arial;
+    font-family: 'Georgia', sans-serif;
     margin-top: 13px;
 }
 .item__text{

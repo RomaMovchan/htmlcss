@@ -1,14 +1,12 @@
 .wrapp{
     max-width: 320px;
 }
-
 .slider__left{
     width: 100%;
 }
 .slider__right{
     display: none;
 }
-
 .header__slider{
     height: auto;
     background: none;
@@ -16,8 +14,6 @@
 .slider__left_wrapp {
     padding: 50px 0 0 28px;
 }
-
-
 .slider__arrows:before{
     top:60px;
     left: 0;
@@ -33,7 +29,6 @@
 .article-wrapp{
     width: 65%;
 }
-
 .readmore{
     margin-top: 0;
     margin-right: 0;
@@ -43,33 +38,27 @@
     height: 100px;
     overflow: hidden;
 }
-
 .news__all__img {
     width: 22%;
 }
 .news__all__cont{
     width: 75%;
 }
-
 .bottom-nav{
     display: none;
 }
 .develop{
     padding: 20px 0;
 }
-
 .bottom__block__item{
     width: 95%;
     margin-left: 5%;
     margin-bottom: 53px;
 }
 .circle-news {
-    top: 227px;
+    top: 202px;
     left: 79px;
 }
-
-
-
 .header__logo{
     width: 100%;
     text-align: center;
@@ -79,7 +68,6 @@
 .menu__item{
     display: block;
     text-align: center;
-    /*padding: 7px 0;*/
     border-top: 1px solid #36283e;
     border-bottom: 1px solid #523e5a;
     background: rgba(0,0,0,0.4);
@@ -99,21 +87,21 @@ nav{
     float: none;
     width: 50%;
     margin: 0 auto;
-    position: relative;
 }
 .menu-item-top{
     display: block;
     padding: 0;
     text-align: center;
+    position: relative;
 }
 .menu{
-    width: 100%;
+    width: 50%;
     border: 1px solid #000;
     border-radius: 10px;
     position: absolute;
-    top:0;
+    top:-12px;
     display: none;
-    z-index: 0;
+    z-index: 8;
 }
 .menu__link{
     padding: 10px;
@@ -122,27 +110,18 @@ nav{
 .menu__link:hover {
     background: rgba(0,0,0,0.8);
 }
-
-.menu-item-top:hover + nav .menu{
-    /*visibility: visible;*/
+.menu-item-top:hover nav .menu{
     display: block;
-    z-index: 1000;
 }
-
-
-
 .slider__left h1{
     font-size: 36px;
 }
-
 .slider__left h3{
     font-size: 18px;
 }
 .slider__left p{
     display: none;
 }
-
-
 .shadow-iphone{
     width: 35%;
     top: 56px;
@@ -158,7 +137,6 @@ nav{
     top: 100px;
     left: 112px;
 }
-
 .header__slider{
     margin-bottom: 99px;
 }
@@ -173,11 +151,9 @@ nav{
 .about__block h1{
     font-size: 24px;
 }
-
 #last{
     margin: 0 17px 16px 16px;
 }
-
 .news__block {
     padding: 67px 0 102px 0;
 }
@@ -191,12 +167,9 @@ nav{
 .news__wrapp {
     padding: 32px 34px 34px 43px;
 }
-
 .partners-block{
     padding: 0 0 20px 0;
 }
-
-
 .partner-block{
     padding-bottom: 44px;
 }
@@ -213,7 +186,6 @@ nav{
 .item__copy{
     display: none;
 }
-
 .bottom__block {
     padding: 81px 0 0 0;
 }
