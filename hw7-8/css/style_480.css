@@ -25,7 +25,7 @@
 .header__top {
     padding: 67px 0 50px 0;
 }
-nav{
+.top-hover{
     float: none;
     width: 50%;
     margin: 0 auto;
@@ -41,7 +41,7 @@ nav{
     border: 1px solid #000;
     border-radius: 10px;
     position: absolute;
-    top:-12px;
+    top: 115px;
      display: none;
     z-index: 8;
 }
@@ -52,10 +52,21 @@ nav{
 .menu__link:hover {
     background: rgba(0,0,0,0.8);
 }
-
-.menu-item-top:hover nav ul.menu{
+.menu__item .menu__link:first-child:hover {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.menu__item .menu__link:last-child:hover {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.top-hover .menu-item-top{
     display: block;
 }
+.top-hover:hover  ul.menu{
+    display: block;
+}
+
 .circle{
     bottom: -297px;
     left: 98px;

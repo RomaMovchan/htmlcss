@@ -104,17 +104,19 @@ header{
     color: #553c61;
     text-shadow: none;
 }
-nav{
-    float: left;
-    width: 73%;
-    margin-top: 8px;
+ul.menu{
+
 }
 .menu__item{
     display: inline-block;
 }
-.menu-item-top{
+.top-hover .menu-item-top{
     display: none;
-    cursor: pointer;
+}
+.top-hover {
+    float: left;
+    width: 73%;
+    margin-top: 8px;
 }
 .circle{
     position: absolute;
@@ -140,7 +142,7 @@ nav{
     text-shadow: 2px 2px 4px #000;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0 0 0 40px;
+    padding: 0 0 0 38px;
 }
 .menu__link span{
     padding: 0 5px;
