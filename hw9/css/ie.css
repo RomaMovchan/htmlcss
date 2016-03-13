@@ -1,0 +1,55 @@
+/*
+.navbar-header .nav .menu__link, .menu-item-top{
+    display: inline;
+}
+.nav > li{
+    display: inline;
+}
+.logoIe,
+.menuIe{
+    display: inline;
+}
+
+.circle ul li{
+    display: inline;
+}*/
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logoIe{
+    width: 100px !important;
+    margin-right: 100px;
+    float: left;
+}
+.menuIe{
+    float: right;
+    width: 700px !important;
+}
+.nav > li{
+    display: inline-block;
+}
+.left-block{
+    width: 60%;
+    display: inline-block;
+}
+.right-block{
+    width: 40%;
+    display: inline-block;
+}
+.about__block{
+    width: 330px;
+    display: inline;
+}
+.news__slider{
+    width: 40%;
+    display: inline-block;
+}
+.news__all{
+    width: 58%;
+    display: inline-block;
+}
+.bottom__news-block{
+    width: 33%;
+    display: inline-block;
+}

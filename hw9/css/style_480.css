@@ -1,0 +1,173 @@
+
+.slider__arrows:before{
+    top:85px;
+    left: -12px;
+}
+.slider__arrows:after{
+    top:85px;
+    right: -12px;
+}
+.menu-item-top{
+    display: block;
+    cursor: pointer;
+}
+.header__slider{
+    margin-bottom: 100px;
+}
+.header__logo,
+.navbar-header{
+    text-align: center;
+}
+.navbar-header .menu-item-top{
+    display: block;
+}
+.menu__link:hover{
+    background: rgba(0,0,0,0.8);
+}
+.menu__link:hover{
+    border-radius: 10px;
+}
+.navbar-nav{
+    display: none;
+}
+.navbar-nav{
+    width: 50%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    position: absolute;
+    top: -7px;
+    left: 116px;
+    z-index: 8;
+    background: rgba(0,0,0,0.4);
+}
+.navbar-header:hover .navbar-nav{
+    display: block;
+    position: absolute;
+}
+.navbar-header .nav .menu__link, .menu-item-top{
+    padding: 15px 0;
+}
+.slider__left_wrapp {
+    padding: 60px 0;
+}
+.slider__left h1{
+    font-size: 36px;
+}
+.slider__left h3{
+    font-size: 18px;
+}
+.slider__left p{
+    display: none;
+}
+.shadow-iphone{
+    width: 35%;
+    top: 56px;
+    left: 27px;
+}
+.iphone{
+    width: 57%;
+    top: -3px;
+    left: 78px;
+}
+.play{
+    width:23%;
+    top: 85px;
+    left: 112px;
+}
+.circle{
+    bottom: -280px;
+    left: -50px;
+}
+.header__top {
+    padding: 67px 0 50px 0;
+}
+.about__wrapp{
+    padding-top: 74px;
+    padding-bottom: 53px;
+}
+.about__block{
+    width: 100%;
+    margin: 0 17px 20px 16px;
+}
+.about__block h1{
+    font-size: 24px;
+}
+.circle-news {
+    top: 325px;
+}
+.news__all__img{
+    width: 16%;
+}
+.news__all__cont{
+    width: 81%;
+}
+.readmore{
+    margin-top: -8px;
+    margin-right: 0;
+}
+.news__block {
+    padding: 67px 0;
+}
+.news__wrapp {
+    padding: 32px 34px 34px 43px;
+}
+.partners-block{
+    padding: 0 0 20px 0;
+}
+.bottom__block__item{
+    width: 100%;
+    margin-bottom: 53px;
+}
+.partner-block{
+    padding-bottom: 44px;
+}
+.partners__logo{
+    display: inline-block;
+    padding: 31px 30px 0 27px;
+}
+.news__title{
+    font-size: 24px;
+}
+.item__head{
+    font-size: 24px;
+}
+.item__copy{
+    display: none;
+}
+.bottom__block {
+    padding: 50px 0 0 0;
+}
+.bottom-nav{
+    margin: 0;
+}
+.bottom-menu{
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    visibility: visible;
+    position: relative;
+    margin-bottom: 20px;
+}
+.item__text{
+    margin-bottom: 20px;
+}
+.menu__item-bottom{
+    display: inline-block;
+    border:none;
+    background: none;
+}
+.menu__link-bottom{
+    padding: 5px;
+}
+.menu__link-bottom:hover{
+    background: none;
+}
+.bottom-nav{
+    width: 100%;
+}
+.develop{
+    float: none;
+    text-align: center;
+    margin-top: 0;
+}
+

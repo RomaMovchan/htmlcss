@@ -1,0 +1,117 @@
+.nav > li {
+    display: inline-block;
+}
+.iphone {
+    top: -22px;
+}
+.shadow-iphone{
+    top: 57px;
+}
+.play{
+    top: 126px;
+}
+
+
+.slider__left_wrapp {
+    padding: 99px 0 60px 22px;
+}
+.slider__left h1{
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+.slider__left h3{
+    font-size: 24px;
+}
+.slider__left p {
+    font-size: 16px;
+    line-height: 26px;
+    height: 100px;
+    overflow: hidden;
+}
+.circle {
+    position: absolute;
+    bottom: -407px;
+    left: 200px;
+    opacity: 0.3;
+}
+.about__wrapp{
+    padding: 70px 0;
+}
+.about__block{
+    margin: 0 8px 0 16px;
+}
+.about__block h1{
+    font-size: 24px;
+}
+.about__block p{
+    font-size: 16px;
+}
+.readmore{
+    margin-top: 9px;
+    margin-right: 234px;
+}
+
+.news__title{
+    font-size: 24px;
+}
+.news__title span{
+    display: block;
+}
+.news__text{
+    height: 148px;
+    overflow: hidden;
+}
+.news__all .news-wrapp p.news__title{
+    font-size: 30px;
+}
+.news__block {
+    padding: 57px 0;
+}
+.news__all__block{
+    margin-top: 17px;
+}
+.news__all__img{
+    width: 7%;
+}
+.news__all__cont {
+    margin-left: 3%;
+    width: 81%;
+    overflow: hidden;
+}
+.partners-block{
+    text-align: left;
+    margin: 0;
+}
+.partners__logo{
+    padding:30px 58px 30px 0;
+}
+
+.item__head{
+    font-size: 24px;
+}
+.bottom__block {
+    padding: 103px 0 97px;
+}
+.item__copy{
+    display: none;
+}
+.item__text{
+    overflow: hidden;
+    height: 165px;
+}
+.footer{
+    height: 200px;
+}
+.bottom-nav {
+    width: 100%;
+}
+.menu__link-bottom{
+    padding: 0 27px 0 0;
+}
+.develop{
+    margin-top: 34px;
+}
+.circle-news{
+    left: 307px;
+    top: 276px;
+}
