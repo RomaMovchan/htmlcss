@@ -142,17 +142,18 @@ nav{
     display: none;
 }
 .shadow-iphone{
-    width: 35%;
+    /*width: 35%;*/
     top: 56px;
     left: 27px;
 }
 .iphone{
-    width: 57%;
+    /*width: 57%;*/
     top: -3px;
     left: 78px;
 }
 .play{
-    width:23%;
+    /*width:23%;*/
+
     top: 100px;
     left: 112px;
 }

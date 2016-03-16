@@ -114,17 +114,17 @@ aside .about__block i{
     width: 50%;
 }
 .shadow-iphone{
-    width: 30%;
+    max-width: 30%;
     top: 56px;
     left: 17%;
 }
 .iphone{
-    width: 50%;
+   max-width: 50%;
     top: -3px;
     left: 34%;
 }
 .play{
-    width:23%;
+    max-width:23%;
     top: 100px;
     left: 47%;
 }

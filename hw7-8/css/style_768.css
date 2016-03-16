@@ -39,19 +39,20 @@ header .top-hover{
     overflow: hidden;
 }
 .iphone {
-    width: 57%;
+    /*width: 57%;*/
     top: -22px;
     left: 50%;
 }
 .shadow-iphone{
-    width: 28%;
+    /*width: 28%;*/
+
     top: 90px;
     left: 32%;
 }
 .play{
     top: 126px;
     left: 66%;
-    width: 25%;
+    /*width: 25%;*/
 }
 aside .about__block i{
     width: 11%;
