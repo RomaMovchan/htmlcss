@@ -84,24 +84,30 @@ a:hover, a:focus{
 
 }
 .header{
-    background: url(../images/header-bg.png) no-repeat center;
-    -webkit-background-size: cover;
-    background-size: cover;
+   /* background: url(../images/header-bg.png) no-repeat center;*/
+    /*-webkit-background-size: cover;
+    background-size: cover;*/
     -webkit-border-bottom: 1px solid #33253a;
     -moz-border-bottom:1px solid #33253a;
     -ms-border-bottom: 1px solid #33253a;
     -o-border-bottom:1px solid #33253a;
     border-bottom:1px solid #33253a;
 }
+.header-top-bg{
+    background: url(../images/htopbg.png) no-repeat center;
+}
 .header__logo{
     display: block;
     text-decoration: none;
+    font-family: LeagueGothic,sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 .header__top{
-    padding: 67px 0 163px 0;
+    padding: 92px 0 186px 0;
 }
-
-.header__logo p,
+.header__logo,
 .navbar-header .nav .menu__link,
 .menu-item-top{
     -webkit-text-shadow: 2px 2px 4px #000;
@@ -110,13 +116,8 @@ a:hover, a:focus{
     -o-text-shadow: 2px 2px 4px #000;
     text-shadow: 2px 2px 4px #000;
 }
-.header__logo p{
-    font-family: LeagueGothic,sans-serif;
-    font-size: 48px;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-.header__logo p span{
+
+.header__logo span{
     color: #553c61;
     -webkit-text-shadow: none;
     -moz-text-shadow: none;
@@ -147,14 +148,13 @@ a:hover, a:focus{
 .menu__link span:hover{
     border-bottom: 2px solid #edbfff;
 }
-
+.header-bottom{
+    background: url(../images/hbb.png) no-repeat center;
+    height: 168px;
+}
 .header__slider{
-
-    background: rgba(0,0,0,0.2);
-    margin-bottom: 200px;
-    /*opacity: .2;
-    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=20)"; */
+    background: url(../images/sliderbg.png) no-repeat center;
+    margin-top: -1px;
 }
 /*sliderarrows*/
 .slider__arrows{

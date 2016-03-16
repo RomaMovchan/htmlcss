@@ -1,21 +1,10 @@
-/*
-.navbar-header .nav .menu__link, .menu-item-top{
-    display: inline;
+.container-slider{
+    margin-right: 15%!important;
+    margin-left: 15% !important;
 }
-.nav > li{
-    display: inline;
-}
-.logoIe,
-.menuIe{
-    display: inline;
-}
-
-.circle ul li{
-    display: inline;
-}*/
 .container{
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 .logoIe{
     width: 100px !important;
