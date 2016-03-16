@@ -39,16 +39,25 @@ header .top-hover{
     overflow: hidden;
 }
 .iphone {
+    width: 57%;
     top: -22px;
+    left: 50%;
 }
 .shadow-iphone{
-    top: 57px;
+    width: 28%;
+    top: 90px;
+    left: 32%;
 }
 .play{
     top: 126px;
+    left: 66%;
+    width: 25%;
+}
+aside .about__block i{
+    width: 11%;
 }
 .article-wrapp {
-    width: 74%;
+    width: 82%;
 }
 .about__block{
     margin: 76px 8px 70px 16px;
@@ -91,7 +100,7 @@ header .top-hover{
 .news__all__block{
     margin-top: 17px;
 }
-.news__all__img{
+.news__all__img img{
     width: 16%;
 }
 .news__all__cont {
@@ -137,6 +146,10 @@ footer{
 }
 .develop{
     margin-top: 34px;
+}
+.circle{
+    bottom: -456px;
+    left: 50%;
 }
 .circle-news{
     left: 95px;

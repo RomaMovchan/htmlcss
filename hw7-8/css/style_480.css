@@ -7,6 +7,13 @@
     float: none;
     margin-bottom: 10px;
 }
+
+aside .about__block i{
+    width: 5%;
+}
+.article-wrapp{
+    width: 84%;
+}
 .menu__item{
     display: block;
     text-align: center;
@@ -71,8 +78,12 @@
     bottom: -297px;
     left: 98px;
 }
+.news__text{
+    height: 196px;
+    overflow: hidden;
+}
 .circle-news{
-    top: 326px;
+    top: 306px;
     left: 150px;
 }
 .slider__arrows:before{
@@ -103,19 +114,19 @@
     width: 50%;
 }
 .shadow-iphone{
-    width: 35%;
+    width: 30%;
     top: 56px;
-    left: 27px;
+    left: 17%;
 }
 .iphone{
-    width: 57%;
+    width: 50%;
     top: -3px;
-    left: 78px;
+    left: 34%;
 }
 .play{
     width:23%;
     top: 100px;
-    left: 112px;
+    left: 47%;
 }
 .header__slider{
     height: 251px;
@@ -135,14 +146,13 @@
     font-size: 24px;
 }
 .readmore{
-    margin-top: -8px;
     margin-right: 0;
 }
 #last{
     margin: 0 17px 16px 16px;
 }
 .news__block {
-    padding: 67px 0 102px 0;
+    padding: 67px 0;
 }
 .news__slider{
     width: 90%;

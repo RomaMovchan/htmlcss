@@ -4,6 +4,28 @@
 .slider__left{
     width: 100%;
 }
+.top-hover:hover  ul.menu{
+    display: block;
+}
+
+
+aside .about__block i{
+    width: 8%;
+}
+.article-wrapp{
+    width: 77%;
+}
+.top-hover{
+    float: none;
+    width: 50%;
+    margin: 0 auto;
+}
+.top-hover .menu-item-top{
+    display: block;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
 .slider__right{
     display: none;
 }
@@ -26,11 +48,8 @@
     height: 70px;
     overflow: hidden;
 }
-.article-wrapp{
-    width: 65%;
-}
 .readmore{
-    margin-top: 0;
+    margin-top: 4px;
     margin-right: 0;
 }
 .news__text,
@@ -38,7 +57,7 @@
     height: 100px;
     overflow: hidden;
 }
-.news__all__img {
+.news__all__img img {
     width: 22%;
 }
 .news__all__cont{
@@ -99,7 +118,7 @@ nav{
     border: 1px solid #000;
     border-radius: 10px;
     position: absolute;
-    top:-12px;
+    top:112px;
     display: none;
     z-index: 8;
 }
@@ -155,7 +174,7 @@ nav{
     margin: 0 17px 16px 16px;
 }
 .news__block {
-    padding: 67px 0 102px 0;
+    padding: 67px 0;
 }
 .news__slider{
     width: 90%;
