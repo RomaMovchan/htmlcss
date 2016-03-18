@@ -41,17 +41,17 @@ header .top-hover{
 .iphone {
     /*width: 57%;*/
     top: -22px;
-    left: 50%;
+    left: 30%;
 }
 .shadow-iphone{
     /*width: 28%;*/
 
     top: 90px;
-    left: 32%;
+    left: 15%;
 }
 .play{
     top: 126px;
-    left: 66%;
+    left: 50%;
     /*width: 25%;*/
 }
 aside .about__block i{
